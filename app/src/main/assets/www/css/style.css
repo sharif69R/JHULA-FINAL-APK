@@ -1,0 +1,7 @@
+:root{--bg:#232B4A;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#232B4A}}
+:root[data-theme="dark"]{--bg:#232B4A}
+html,body{margin:0;height:100%;background:var(--bg);overflow:hidden;touch-action:none;user-select:none}
+body{display:flex;align-items:center;justify-content:center}
+canvas{width:100%;max-height:100%;aspect-ratio:16/9;display:block;background:#BFE3F5}
